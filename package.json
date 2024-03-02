@@ -1,0 +1,19 @@
+{
+  "name": "gestionrh",
+  "version": "1.0.0",
+  "description": "Cette application a pour but de faciliter la gestion du personnel d’une entreprise.\r Cette application permet lister les différents services et les salariés qui la compose, accéder à une page de profil (photo, nom , prénom , adresse, email, téléphone, service, profession).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
